@@ -1,11 +1,11 @@
-//muscle memory of things we did before
-// 5 variables of different data types 
-// first would be string var = string
-// var = number
-//var = array
-// var == boolean
-// var to object (4 different key /value pairs
-// [string], [number], [array], [boolean],)
+// //muscle memory of things we did before
+// // 5 variables of different data types 
+// // first would be string var = string
+// // var = number
+// //var = array
+// // var == boolean
+// // var to object (4 different key /value pairs
+// // [string], [number], [array], [boolean],)
 
 var string = 'This is my string!'
 
@@ -17,8 +17,8 @@ true === true
 
 var things = ['string', 1, [1,2,3], false]
 
-let setence = 'Today, is the Friday!'
-console.log(setnence);
+let sentence = 'Today, is the Friday!'
+console.log(sentence);
 
 let age = 32;
 console.log(age);
