@@ -15,7 +15,12 @@ var array = [1,2,3,4,5,]
 
 true === true 
 
-var things = ['string', 1, [1,2,3], false]
+var things = {
+    name:'string', 
+    num:1, 
+    numbLike: [1,2,3], 
+    toQuit: false
+}
 
 let sentence = 'Today, is the Friday!'
 console.log(sentence);
