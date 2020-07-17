@@ -42,3 +42,34 @@ const lakers = {
 }
 
 console.log(lakers);
+// spend 7 min 10 different functions 
+//one function pass in an array
+//one of your functions need to pass a callback
+//one of your functions pass in a string
+//pass in object
+//pass boolean
+//the rest freestyle
+function printStuff(words){
+    let word = 'Dont ever quit!';
+    return words;
+}
+
+function callItBack(name, callback){
+    let name = 'Channee';
+    let calling = callback()
+    return callItBack;
+}
+
+console.log(callItBack);
+
+function thisIsString(){
+    let array = ['one','two','three'];
+    return array;
+}
+
+function adding(num1, num2){
+    let adding = num1 + num2;
+    return num1 + num2
+}
+
+console.log(adding(1, 3))
