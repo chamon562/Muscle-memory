@@ -13,7 +13,7 @@ var num = 1
 
 const array = [1,2,3,4,5,]
 
-let thisTrue === true 
+let thisTrue = true 
 
 const things = {
     name:'string', 
