@@ -211,7 +211,7 @@ printMyArray(things)
 
 //add info to paragrph
 // dont forget the dot('.paragraph')
- const paraOne = docuemnt.querySelector('.paragraph-one');
+ const paraOne = document.querySelector('.paragraph-one');
  console.log(paraOne);
 
  paraOne.textContent = 'Lebron James';
@@ -220,13 +220,25 @@ printMyArray(things)
  console.log(paraTwo)
  paraTwo.textContent = 'Steph Curry';
 
- const paraThee = document.querySelector('.paragraph-three');
+ const paraThree = document.querySelector('.paragraph-three');
  paraThree.textContent = 'Kemba Walka';
 
  const paraFour = document.querySelector('.paragraph-four');
  console.log(paraFour);
  paraFour.textContent = 'Kyrie Irving';
 
- const paraFive = docment.querySelector('.paragraph-five');
+ const paraFive = document.querySelector('.paragraph-five');
  console.log(paraFive);
  paraFive.textContent = 'Damien Lillard';
+
+ const containerSix = document.createElement('div');
+ 
+ containerSix.classList.add('container-six');
+ 
+ console.log(containerSix)
+
+ const sectionSix = document.createElement('h2');
+ console.log(sectionSix);
+
+
+ 
