@@ -240,5 +240,66 @@ printMyArray(things)
  const sectionSix = document.createElement('h2');
  console.log(sectionSix);
 
+// sectionSix.classList.add('section-sex');
+sectionSix.setAttribute('id', 'section-sex');
 
- 
+sectionSix.textContent = 'Rockets';
+
+console.log(sectionSix)
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+paraSix.textContent = 'James Harden';
+
+console.log(paraSix);
+
+//whenever you want to add to webpage
+//now figure out how to add to page
+//grab some refereence from the to index.html
+//to where you can pin stuff to it
+// need to grab body and pin? stuff to it
+//it will be added to the end.
+
+//first grab body
+
+// if you grab tag no need for . just put name
+const body = document.querySelector('body')
+console.log(body);
+
+//append the container first
+//we say appendChild because its children that belongs to body
+//put in your made container is containerSix
+body.appendChild(containerSix);
+console.log(containerSix)
+
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+//create another section or another container 
+// and anohther section and paragraph and append all to web page
+
+//first container add class
+const containerSeven = document.createElement('div');
+console.log(containerSeven)
+// containerSeven.addClasslist.add(containerSeven);
+containerSeven.classList.add('container-seven');
+console.log(containerSeven)
+
+// create another section add id and text content
+
+const sectionSeven = document.createElement('h2')
+console.log(sectionSeven)
+sectionSeven.setAttribute('id', 'section-seven')
+sectionSeven.textContent = 'Choppa knock that section down!'
+//create another pagaraph p tag add a class and text content
+const paraSeven = document.createElement('p');
+console.log(paraSeven);
+
+paraSeven.classList.add('paragraph-seven');
+paraSeven.textContent = 'Its going Down'
+//append the container to the body 
+body.appendChild(containerSeven);
+//append section to the container 
+containerSeven.appendChild(sectionSeven);
+//append the paragraph to the container
+containerSeven.appendChild(paraSeven);
