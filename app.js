@@ -303,3 +303,24 @@ body.appendChild(containerSeven);
 containerSeven.appendChild(sectionSeven);
 //append the paragraph to the container
 containerSeven.appendChild(paraSeven);
+
+
+const containerEight = document.createElement('div');
+
+containerEight.classList.add('container-eight');
+console.log(containerEight)
+
+const sectionEight = document.createElement('h2');
+sectionEight.setAttribute('id', 'section-eight');
+sectionEight.textContent = 'Yippy Kaiyay!'
+console.log(sectionEight)
+
+const paraEight = document.createElement('p');
+paraEight.classList.add('paragraph-eight');
+console.log(paraEight);
+paraEight.textContent = 'Get that work in'
+
+body.appendChild(containerEight);
+containerEight.appendChild(sectionEight);
+containerEight.appendChild(paraEight);
+    
