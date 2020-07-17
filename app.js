@@ -11,11 +11,11 @@ var string = 'This is my string!'
 
 var num = 1
 
-var array = [1,2,3,4,5,]
+const array = [1,2,3,4,5,]
 
-true === true 
+let thisTrue === true 
 
-var things = {
+const things = {
     name:'string', 
     num:1, 
     numbLike: [1,2,3], 
